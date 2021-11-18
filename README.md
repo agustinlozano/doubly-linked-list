@@ -27,7 +27,7 @@ Node *tail = NULL;
 
 **insertAfter**: Given a node as prev_node, insert a new node after the given node.
 
-**append**: iven a reference (pointer to pointer) to the head
+**append**: Given a reference (pointer to pointer) to the head
    of a DLL and an int, appends a new node at the end
    
 **delete**: Function to delete a node in a Doubly Linked List.
