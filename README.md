@@ -9,8 +9,8 @@ In computer science, a doubly linked list is a linked data structure that consis
   /* Node of a doubly linked list */
 typedef struct node {
     int data;
-    struct Node* next;
-    struct Node* prev;
+    struct node* next;
+    struct node* prev;
 } Node;
 
 /*Head: Get the fist node from list.
