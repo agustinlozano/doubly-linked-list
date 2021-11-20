@@ -6,13 +6,15 @@ int main(void) {
 
   printf("Doubly Linked List\n");
 
-  int choice = runMenu();
+  int choice = 1;
 
   while (choice != 0) {
+    choice = runMenu();
+    
     switch (choice) {
       case 1:
         printf("\n\t- Agregar un elemento al principio");
-        //push();
+        push(&head);
       break;
 
       case 2:
@@ -27,11 +29,11 @@ int main(void) {
 
       case 4:
         printf("\n\t- Imprimir lista");
-        //printList();
+        printList(head);
       break;
 
       case 0:
-        printf("\n\t- Terminar programa");
+        printf("\n\t- Terminar programa\n\n");
       break;
 
       default:
