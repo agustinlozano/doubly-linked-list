@@ -4,7 +4,7 @@ void printList(Node *head) {
   Node *current = head;
 
   if (head == NULL) {
-    printf("\nLa lista esta vacia, no hay nada que mostrar");
+    printf("\nLa lista esta vacia. No hay nada que mostrar");
   
   } else {
     int count = 0;
