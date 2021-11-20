@@ -12,5 +12,4 @@ int runMenu(void) {
   scanf(" %d", &choice);
 
   return choice;
-
 }
