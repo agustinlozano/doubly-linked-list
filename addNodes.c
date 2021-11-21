@@ -17,6 +17,7 @@ void append(Node **head) {
     }
 
     current -> next = tail;
+    tail -> prev = current;
     tail -> next = NULL;
 
     addData(tail);
@@ -50,7 +51,6 @@ void addData(Node *n) {
   scanf(" %d", &data);
 
   n -> data = data;
-  printf("\nEl contenido agrado es: %d\n", n->data);
 }
 
 void addFirstNode(Node **head, Node *newNode) {
