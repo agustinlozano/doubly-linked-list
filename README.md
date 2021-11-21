@@ -26,9 +26,10 @@ Node *tail = NULL;
    and a data, inserts a new node on the front of the list.
 
 **append**: Given a reference (pointer to pointer) to the head
-   of a DLL, appends a new node at the end
+   of a DLL, appends a new node at the end.
    
-**printList**: This function prints contents of linked list starting from the given node.
+**printList**: This function prints contents of linked list. User can choice if
+   print descending or print ascending.
 
-**delete**: Function to delete a node in a Doubly Linked List.
+**delete**: Function to delete any node in a Doubly Linked List.
 
