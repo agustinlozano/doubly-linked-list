@@ -22,16 +22,11 @@ int main(void) {
       break;
 
       case 3:
-        printf("\n\t- Agregar un elemento seguido de otro");
-        //insertAfter();
-      break;
-
-      case 4:
         printf("\n\t- Imprimir lista");
         printList(head);
       break;
 
-      case 5:
+      case 4:
         printf("\n\t- Eliminar elemento");
         deleteNode(&head);
       break;
