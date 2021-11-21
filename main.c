@@ -2,7 +2,6 @@
 
 int main(void) {
   Node *head = NULL;
-  Node *tail = NULL;
 
   printf("Doubly Linked List\n");
 
@@ -19,7 +18,7 @@ int main(void) {
 
       case 2:
         printf("\n\t- Agregar un elemento al final");
-        //append();
+        append(&head);
       break;
 
       case 3:
@@ -30,6 +29,11 @@ int main(void) {
       case 4:
         printf("\n\t- Imprimir lista");
         printList(head);
+      break;
+
+      case 5:
+        printf("\n\t- Eliminar elemento");
+        deleteNode(&head);
       break;
 
       case 0:
